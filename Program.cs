@@ -10,13 +10,15 @@ namespace _5
     {
         static void Main(string[] args)
         {
-            Dictionary <string, int  > registro = new Dictionary<string, int>();
+            Dictionary <string, string > registro = new Dictionary<string, string>();
 
-            registro.Add("Marlon",18587);
-            registro.Add("Leon ", 49424);
-            registro.Add("Brisa", 202605);
-            registro.Add("Marta", 199526);
-            registro.Add("Enrique",200514);
+            registro.Add("Mar_45","admin485");
+            registro.Add("Leon_admin", "pas_49424");
+            registro.Add("Brisa_lop", "l@202605");
+            registro.Add("Marta45", "ma#199526");
+            registro.Add("Enrique*5","#200514@");
+
+
         }
     }
 }
