@@ -18,6 +18,19 @@ namespace _5
             registro.Add("Marta45", "ma#199526");
             registro.Add("Enrique*5","#200514@");
 
+            string BuscarUsu = "Brisa_lop";
+
+            if (registro.ContainsKey(BuscarUsu))
+            {
+                string password = registro[BuscarUsu];
+                Console.WriteLine(" la contraseña del usuario: " + BuscarUsu + " es: " + password);
+            }
+            else
+            {
+                Console.WriteLine(" el usuario no existe");
+
+            }
+
 
         }
     }
